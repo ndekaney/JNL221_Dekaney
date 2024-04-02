@@ -42,7 +42,7 @@
             }
 
             .book {
-                border: 10px palegoldenrod;
+                border: 6px solid palegoldenrod;
             }
 
             #bargraph {
@@ -127,9 +127,9 @@
         <!-- Include: an ordered list -->
         <!-- Tags to use: <ol>, <li>, <a> -->
         <ol> 
-            <li> Tom Cruise </li>
-            <li> David Muir </li>
-            <li> Post Malone </li>
+            <li> <a href= "https://en.wikipedia.org/wiki/Tom_Cruise" target="_blank"> Tom Cruise </a></li>
+            <li> <a href="https://en.wikipedia.org/wiki/David_Muir" target="_blank"> David Muir</a></li>
+            <li> <a href="https://en.wikipedia.org/wiki/Post_Malone" target="_blank"> Post Malone </a></li>
         </ol>
 
 
@@ -156,29 +156,29 @@
         <h2>These are more of my favorite books</h2>
         <!-- Include: an unordered list of at least three books, list items should have a border -->
         <!-- Tags to use: <ul>, <li> with classes named 'book' that is styled in the <style> section -->
-        <ul class= "book"> 
-            <li> Pride and Prejudice </li> 
-            <li> The Giver </li>
-            <li> Captain Underpants </li> 
+        <ul> 
+            <li class="book"> Pride and Prejudice </li> 
+            <li class="book"> The Giver </li>
+            <li class="book"> Captain Underpants </li> 
         </ul>
 
         <h2>Here's how I normally spend my weekend</h2>
         <!-- Include: a complete Datawrapper chart (you can make up data) showing what you normally spend time on over the weekend; must include all requirements of a complete chart (hed, subhed, intentional colors, byline, etc.) -->
         <!-- Tags to use: <iframe> -->
         <iframe iframe title="How I Normally Spend My Weekend" aria-label="Bar Chart" id="datawrapper-chart-Wmeyx" src="https://datawrapper.dwcdn.net/Wmeyx/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="326" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
-</script>
+        </script>
 
 
         <h3>~ Challenge: A very simple bar graph ~</h3>
         <!-- Challenge! Add CSS styles to '#longer' and '#long' to make the bar graph look like it's ordered from longest to shortest. (Use the CSS in #longest as a reference.) You may also change the h4 text and the p text to make this simple bar chart reflect real (or fake) data. -->
 
         <div id="bargraph">
-            <h4>Length of bars</h4>
-            <p class="bar_label">Longest</p>
+            <h4>How much I played Xbox this weekend</h4>
+            <p class="bar_label">Saturday</p>
             <div id="longest"></div>
-            <p class="bar_label">Longer</p>
+            <p class="bar_label">Friday</p>
             <div id="longer"></div>
-            <p class="bar_label">Long</p>
+            <p class="bar_label">Sunday</p>
             <div id="long"></div>
         </div>
      
