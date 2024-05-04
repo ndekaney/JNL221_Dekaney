@@ -3,16 +3,22 @@
 .footer p { /* This is how you add styles for only the p text within the footer. */
 	background-color: #cccccc;
 	text-align: center;
-	font-family: 'Times New Roman', serif;
-	font-size: 20px;
+	font-family: 'karma', serif;
+	font-size: 25px;
 	margin-bottom: 0;
+}
+p {
+	margin-right: 20px;
+	margin-left: 20px;
+	font-size: 20px;
+	font-family: 'karma', serif;
 }
 .header {
 	height: auto;
 	font-weight: bold;
 	font-size: 50px;
 	text-align: center;
-	font-family: 'Georgia', serif;
+	font-family: 'titillium web', serif;
 	background-color: darkslategray;
 	p: first-line {
 		font-variant: small-caps;
@@ -22,31 +28,48 @@ img {
 	float: right;
 	margin-right: 5%;
 	margin-left: 5%;
-
 }
 h4 {
 	font-style: italic;
 	font-size: 40px;
-	font-family: 'Georgia', serif;
+	font-family: 'titillium web', serif;
 	text-decoration: underline black;
 }
 h3 {
 	font-size: 30px;
+	font-family: "Playfair Display", serif;
+	margin-left: 20px;
+}
+iframe {
+	min-width: 80% !important;
+	margin-left: 20px;
 }
 
 
 /*Don't worry about this section yet*/
 @media only screen and (max-width: 767px)
 {
+p { 
+	font-size:20px
+} 
+.header {
+	font-size: 35px;
+}
+h4 {
+	font-size: 30px;
+}
+.footer p {
+	font-size:25px
+}
  .list {
- 	float: none;
- 	min-width: 90%;
- 	margin-left: 10px;
- 	margin-bottom: 30px;
- 	margin-top: 30px;
+ 	border: 2px darkgray solid;
+ 	padding: 4px
  }
+img {
+	float: none;
+}
  iframe {
- 	min-width: 90%;
- 	margin-right: 10px;
+ 	min-width: 95% !important;
+/* 	margin-right: 10px;*/
  }
 }
